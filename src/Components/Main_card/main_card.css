@@ -1,0 +1,107 @@
+.site-hero {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.site-hero__title {
+    width: 734px;
+    margin-top: 36px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+
+.site-hero__text {
+    width: 589px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+
+.site-hero__link {
+    padding: 19px 96px;
+    background: linear-gradient(152.13deg, #63e1d9 -150.21%, #34a0cd 170.03%);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 28px;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    transition: all 0.4s linear;
+}
+
+.site-hero__link:hover {
+    background: #0b6965;
+}
+.site-hero__link:active {
+    transform: scale(1.2);
+}
+
+
+/* main {
+    background-image: url(../../group/main-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.main-card {
+    margin-top: 158px;
+    margin-bottom: 136px;
+}
+
+.main-card__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 78px;
+}
+
+.main-card__item {
+    width: 349px;
+}
+
+.main-card__img {
+    margin-left: 130px;
+}
+
+.main-card__list .main-card__img path:hover {
+    fill: #093330;
+}
+.main-card__img rect:hover {
+    fill: #093330;
+}
+
+.main-card__title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main-card__text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+}

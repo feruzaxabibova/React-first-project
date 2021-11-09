@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    background: #3cb0b4;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-logo__img path:hover {
+    fill: #429c97;
+    transition: fill 0.3s linear;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar-list__item {
+    margin-right: 57px;
+}
+
+.navbar-list__link {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.navbar-list__link:hover {
+    color: #429c97;
+}
